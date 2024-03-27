@@ -3,8 +3,7 @@ require "pry"
 require './lib/card'
 
 class Turn
-	attr_reader :turn,
-							:card,
+	attr_reader :card,
 							:guess
 
 	def initialize(guess, card)
